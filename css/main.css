@@ -1,0 +1,12 @@
+/* @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet|Josefin+Sans|Comfortaa|Play|Source+Sans+Pro:400,700); */
+
+#navigation {
+  font-family: 'Indie Flower', cursive;
+}
+@media screen and (max-width: 500px) {
+}
+
+.nav-link {
+  padding-left: 5rem;
+  padding-right: 1rem;
+}
