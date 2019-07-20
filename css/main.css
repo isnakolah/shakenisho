@@ -3,10 +3,16 @@
 #navigation {
   font-family: 'Indie Flower', cursive;
 }
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
+  #card-body {
+    height: 7rem;
+  }
 }
 
 .nav-link {
   padding-left: 5rem;
   padding-right: 1rem;
+}
+#main-container {
+  padding-top: 4rem;
 }

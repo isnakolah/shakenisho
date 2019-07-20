@@ -15,7 +15,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet|Josefin+Sans|Comfortaa|Play" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet|Josefin+Sans|Comfortaa|Play"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/_navbar.scss" />
     <link rel="stylesheet" href="css/main.css" />
@@ -24,7 +27,7 @@
   <body>
     <div id="navigation">
       <!-- Add the hover feature, and make this more adorable, make sure it is responsive. -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
         <a class="navbar-brand" href="#">HOME</a>
         <button
           class="navbar-toggler"
@@ -40,7 +43,8 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">CONTACTS<span class="sr-only">(current)</span></a
+              <a class="nav-link" href="#"
+                >CONTACTS<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
@@ -54,32 +58,89 @@
         </div>
       </nav>
     </div>
-    <div class="container-fluid">
+    <br />
+    <div class="container" id="main-container">
       <!-- This is the first row, where the logo and the CDO name will be. Actually, the background will have a vegetative, or whatever cover picture. -->
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-md-6">
+          <p>This is the placeholder for the logo</p>
           <!-- The logo goes here -->
         </div>
-        <div class="col-lg-8">
+        <div class="col-md-6">
           <!-- The cdo name goes here -->
+          <h1>Community Shakenisho Development Organisation</h1>
         </div>
+        <br /><br /><br /><br />
+
         <!-- Who are we? -->
-        <!-- The phrase who are we will be on one side while the explantion will be on the other side. -->
-        <div class="card">
-          <div class="row">
-            
-          </div>
-        </div>
-        <!-- Mission and vision statements -->
-        <div class="row">
-          <div class="col-lg-8">
+        <!-- The phrase who are we will be on one side while the explanation will be on the other side. -->
+        <div class="container">
+          <div class="col-md-8">
             <div class="card">
-              <div class="card-header bg-info">
-                <h3>Our Mission.</h3>
+              <div class="row">
+                <div class="col-md-4 bg-light card">
+                  <h2 class="card-header">Who are we?</h2>
+                </div>
+                <div class="col-md-8 card">
+                  <h7
+                    >We are a Community based organisation that is here to make
+                    the lives of people better.</h7
+                  >
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-8"></div>
+          <div class="col-md-4">
+            <div class="card bg-info text-dark">
+              <div class="card-header bg-info text-dark">
+                <h2>Our Core Values(<span class="core-values">ACTED</span>)</h2>
+              </div>
+              <div class="card-body bg-light list-group list-group-flush">
+                <ol>
+                  <li class="list-group-item">Accountability</li>
+                  <li class="list-group-item bg-light">Capacity building</li>
+                  <li class="list-group-item">Transparency in Teamwork</li>
+                  <li class="list-group-item bg-light">
+                    Most importantly, have fun! ;)
+                  </li>
+                  <li class="list-group-item">You can now begin</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br />
+
+        <!-- Mission and vision statements -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header bg-light">
+                <h4>Our Vision.</h4>
+              </div>
+              <div class="card-body" id="card-body">
+                <h6>
+                  An empowered community able to handle their own development
+                  agenda devoid of retrogressive social cultural and economic
+                  constrains
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h4>Our Mission</h4>
+              </div>
+              <div class="card-body" id="card-body">
+                <h6>
+                  To establish a culture of community and stakeholders
+                  engagement in addressing the root causes of poverty and owning
+                  transformational development processes
+                </h6>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
