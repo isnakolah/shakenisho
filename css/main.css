@@ -16,3 +16,22 @@
 #main-container {
   padding-top: 4rem;
 }
+ol {
+  padding: 0;
+}
+div.card-body.bg-light.list-group.list-group-flush {
+  padding: 0;
+}
+li.list-group-item {
+  padding: 6px;
+}
+.values {
+  text-decoration: underline;
+  /* Try to make the ACTED come out really well. */
+}
+#first-container {
+  padding-bottom: 2rem;
+}
+#values {
+  padding: 0;
+}
